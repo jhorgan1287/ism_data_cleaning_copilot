@@ -12,11 +12,14 @@ import pandas as pd
 
 
 
+
 # 1. Load the raw dataset
 # What: Load the CSV file from the data/raw folder.
 # Why: We need the raw data in memory before cleaning it.
 # ---------------------------------------------------
-def load_data(file_path: str):
+# Function: load_data 
+# This function should load a CSV file from disk and return a DataFrame.
+def load_data(file_path):
     """Load a CSV file and return a pandas DataFrame."""
     return pd.read_csv(file_path)
 
