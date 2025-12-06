@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../python_github"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}
